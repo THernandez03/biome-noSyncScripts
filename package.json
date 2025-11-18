@@ -1,0 +1,13 @@
+{
+  "name": "biome-nosyncscripts",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "check": "biome check",
+    "check:fix": "biome check --fix"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.3.6"
+  }
+}

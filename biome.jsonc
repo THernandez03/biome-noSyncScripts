@@ -1,0 +1,15 @@
+{
+	"$schema": "https://biomejs.dev/schemas/2.3.6/schema.json",
+	"files": {
+		"includes": ["./index.html"]
+	},
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"recommended": false,
+			"nursery": {
+				"noSyncScripts": "on"
+			}
+		}
+	}
+}
